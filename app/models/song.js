@@ -6,9 +6,3 @@ export default DS.Model.extend({
   rating: DS.attr('number'),
   band: DS.belongsTo('band')
 });
-
-// export default Ember.Object.extend({
-//   title: '',
-//   rating: 0,
-//   band: null,
-// });

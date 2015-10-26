@@ -6,7 +6,7 @@ export default Ember.Route.extend({
     if (Ember.isEmpty(description)) {
       this.transitionTo('bands.band.songs');
     } else {
-      this.transitionTo('bands.band.details')
+      this.transitionTo('bands.band.details');
     }
   }
 });
